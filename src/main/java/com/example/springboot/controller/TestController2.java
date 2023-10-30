@@ -5,22 +5,15 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-public class TestContrller {
-    @RequestMapping(value = "/home")
+public class TestController2 {
+    @RequestMapping(value = "/home2")
     public String home(){
         return  "index.html";
     }
 
     @ResponseBody
-    @RequestMapping(value =  "/")
+    @RequestMapping(value =  "/test")
     public String helloWorld(){
         return  "11233213";
-    }
-
-    @ResponseBody
-    @RequestMapping(value = "/homevalue")
-    public String valueTest(){
-        String value = "120";
-        return  value;
     }
 }
