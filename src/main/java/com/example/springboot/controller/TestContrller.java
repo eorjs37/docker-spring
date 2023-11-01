@@ -14,13 +14,13 @@ public class TestContrller {
     @ResponseBody
     @RequestMapping(value =  "/")
     public String helloWorld(){
-        return  "1123321ssss3";
+        return  "return data";
     }
 
     @ResponseBody
     @RequestMapping(value = "/homevalue")
     public String valueTest(){
-        String value = "120";
+        String value = "1120";
         return  value;
     }
 }
