@@ -14,7 +14,7 @@ public class TestContrller {
     @ResponseBody
     @RequestMapping(value =  "/")
     public String helloWorld(){
-        return  "return data";
+        return  "return";
     }
 
     @ResponseBody
